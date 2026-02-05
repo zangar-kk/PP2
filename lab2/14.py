@@ -1,15 +1,13 @@
 n = int(input())
 a = list(map(int, input().split()))
 
-unique = set(a)
+freq = {}
 
-max_freq = 0
-answer = None
+for x in a:
+    freq[x] = freq.get(x, 0) + 1
 
-for x in unique:
-    cnt = a.count(x)
-    if cnt > max_freq or (cnt == max_freq and (answer is None or x < answer)):
-        max_freq = cnt
-        answer = x
+max_freq = max(freq.values())
 
-print(answer)
+candidates = [k for k, v in freq.items() if v == max_freq]
+
+print(min(candidates))
