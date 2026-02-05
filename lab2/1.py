@@ -1,4 +1,4 @@
-a = int(input())
-n = list(map(int, input().split()))
+y = int(input())
+total = list(map(int, input().split()))
 
-print(sum(n))
+print(sum(total))
