@@ -13,15 +13,12 @@ def min_dist(ax, ay, bx, by):
     d2 = dx*dx + dy*dy
     if d2 == 0:
         return math.hypot(ax, ay)
-
     t = -(ax*dx + ay*dy) / d2
     t = max(0, min(1, t))
 
     x = ax + t*dx
     y = ay + t*dy
     return math.hypot(x, y)
-
-# если прямая не проходит через круг
 if min_dist(ax, ay, bx, by) >= r:
     print(f"{dist(ax, ay, bx, by):.10f}")
 else:
@@ -31,7 +28,6 @@ else:
         b = math.acos(r / d)
         l = math.sqrt(d*d - r*r)
         return a, b, l
-
     a1, b1, l1 = tang(ax, ay)
     a2, b2, l2 = tang(bx, by)
 
@@ -46,5 +42,6 @@ else:
             d = min(d, 2*math.pi - d)
             total = l1 + l2 + r*d
             best = min(best, total)
+
 
     print(f"{best:.10f}")
