@@ -3,5 +3,6 @@ def sq(n):
         yield i * i
 n = int(input())
 
-for value in sq(n):
-    print(value)
+for v in sq(n):
+    print(v)
+
