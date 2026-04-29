@@ -1,0 +1,86 @@
+[
+    {
+        "name": "Daniyal",
+        "email": null,
+        "birthday": null,
+        "group": null,
+        "phones": [
+            {
+                "number": "123456",
+                "type": "mobile"
+            }
+        ]
+    },
+    {
+        "name": "Danya",
+        "email": null,
+        "birthday": null,
+        "group": null,
+        "phones": [
+            {
+                "number": "7777777",
+                "type": "mobile"
+            }
+        ]
+    },
+    {
+        "name": "Kuanus",
+        "email": null,
+        "birthday": null,
+        "group": null,
+        "phones": [
+            {
+                "number": "8888888",
+                "type": "mobile"
+            }
+        ]
+    },
+    {
+        "name": "Zangar",
+        "email": null,
+        "birthday": null,
+        "group": null,
+        "phones": [
+            {
+                "number": "8777777",
+                "type": "mobile"
+            }
+        ]
+    },
+    {
+        "name": "zako",
+        "email": null,
+        "birthday": null,
+        "group": null,
+        "phones": [
+            {
+                "number": "8702544",
+                "type": "mobile"
+            }
+        ]
+    },
+    {
+        "name": "ars",
+        "email": null,
+        "birthday": null,
+        "group": null,
+        "phones": [
+            {
+                "number": "454545",
+                "type": "mobile"
+            }
+        ]
+    },
+    {
+        "name": "Newbie",
+        "email": "noob@gmail.com",
+        "birthday": "2025-12-25",
+        "group": "Family",
+        "phones": [
+            {
+                "number": "870202680817",
+                "type": "mobile"
+            }
+        ]
+    }
+]
